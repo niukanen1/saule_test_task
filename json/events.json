@@ -1,0 +1,80 @@
+[ 
+    { 
+        "id": "1",
+        "title": "First event", 
+        "outcome": [
+            { 
+                "id": "1",
+                "title": "White wins", 
+                "coefficient": 3.00
+            },
+            { 
+                "id": "2",
+                "title": "Black wins", 
+                "coefficient": 1.02
+            },
+            { 
+                "id": "3",
+                "title": "Draw", 
+                "coefficient": 1.50
+            }, 
+            {   
+                "id": "4",
+                "title": "Black resigns", 
+                "coefficient": 1.75
+            }
+        ]
+    },
+    { 
+        "id": "2",
+        "title": "Second event", 
+        "outcome": [
+            { 
+                "id": "1",
+                "title": "White wins", 
+                "coefficient": 1.50
+            },
+            { 
+                "id": "2",
+                "title": "Black wins", 
+                "coefficient": 3.00
+            },
+            { 
+                "id": "3",
+                "title": "Draw", 
+                "coefficient": 2.00
+            }, 
+            { 
+                "id": "4",
+                "title": "White resigns", 
+                "coefficient": 1.8
+            }
+        ]
+    },
+    { 
+        "id": "3",
+        "title": "Third event", 
+        "outcome": [
+            { 
+                "id": "1",
+                "title": "White wins", 
+                "coefficient": 2.00
+            },
+            { 
+                "id": "2",
+                "title": "Black wins", 
+                "coefficient": 1.25
+            },
+            { 
+                "id": "3",
+                "title": "Draw", 
+                "coefficient": 3.00
+            },
+            {
+                "id": "4",
+                "title": "Someone resigns",
+                "coefficient": 1.50
+            }
+        ]
+    }
+]
