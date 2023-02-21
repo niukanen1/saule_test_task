@@ -11,7 +11,7 @@ export type Outcome = {
 export type Event = {
     id: string
 	title: string;
-	outcome: Outcome[] | Outcome;
+	outcome: Outcome[];
 };
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
@@ -21,7 +21,3 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 }
 
 
-function randomStatus() { 
-    const arr = [200, 403, 204];
-    return 200
-} 
